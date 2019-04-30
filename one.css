@@ -194,6 +194,36 @@ img.central {
     font-weight: 800
 } 
 
+#fourth-container {
+    background-color: white;
+    margin: 0 auto;
+    flex-direction: row;
+    border: 10px;
+    border-radius: 5px;
+    padding: 5px 0 10px 0;
+    text-align: center;
+    max-width: 610px;
+    overflow: hidden;
+    width: 100%;
+}
+
+#fourth-container-content {
+    padding-top: 40px;
+    font-size: 16px;
+    line-height: 20px;    
+    margin: 0 auto;
+    display: inline-block;
+    max-width: 280px;
+    text-align: center;
+}
+
+img.fourth {
+    max-width: 260px;
+    float: left;
+    padding: 10px;
+    height: auto;
+}
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 	.logo-box {
         float: none;
