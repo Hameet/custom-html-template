@@ -1,3 +1,3 @@
 # custom-html-template
 
-### Making an html template from scratch 
+### Check it out <a href="https://hameet.github.io/custom-html-template/">here</a>
