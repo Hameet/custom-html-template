@@ -40,8 +40,7 @@ body {
     width: 100%;
 }
 
-.logo-box {
-    
+.logo-box {    
     display:inline-block;
     padding: 10px; 
     float: left;
@@ -53,10 +52,10 @@ body {
     padding: 10px; 
     float: right;
     Margin: 4% 5% 2% 0;
-    overflow: hidden;
-    
+    overflow: hidden;    
 }
- .logo { 
+
+.logo { 
     margin-top: 20px;
     display: inline-block;     
 }
@@ -244,8 +243,7 @@ img.fourth {
     height: auto;
 }
 
-#footer {
-    
+#footer {    
     border-top: 4px solid #81B9C3;
     text-align: center;
     max-width: 670px;
@@ -278,6 +276,7 @@ img.fourth {
     #third-row-content {
         max-width: 80%;
     }
+
     img.central {
         max-width: 100% !important;       
     }
@@ -292,11 +291,9 @@ img.fourth {
 
     img.fourth {
         max-width: 100% !important;
+        padding: 0px;
     }
 
-    #footer {
-
-    }
 }
 @media screen and (min-width: 401px) and (max-width: 400px) {
 
@@ -307,4 +304,3 @@ img.fourth {
 		max-width: 33%!important;
 }
 }
-@media screen and (max-width:768px) {}
