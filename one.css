@@ -16,8 +16,13 @@ body {
 }
 
 #link-box {
-    background-color: red;
+    background-color: palevioletred;
     text-align: center;
+}
+
+.link-text {
+    font-size: 18px;
+    text-decoration: none;
 }
 
 
@@ -95,6 +100,7 @@ img.green {
     max-width: 610px;
     overflow: hidden;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 #central-text {
@@ -154,7 +160,7 @@ img.central {
 }
 
 #third-container {
-    background-color: brown;
+    background-color: palevioletred;
     margin: 0 auto;
     flex-direction: row;
     border: 10px;
@@ -205,6 +211,7 @@ img.central {
     max-width: 610px;
     overflow: hidden;
     width: 100%;
+    margin-top: 20px;
 }
 
 #fourth-container-content {
@@ -213,16 +220,15 @@ img.central {
     max-width: 290px;
     display: inline-block;
     vertical-align: top;
-   font-size: 17px;
-   text-align: justify;
-   padding: 2px;
+    font-size: 17px;
+    text-align: justify;
+    padding: 2px;
 }
 
 .head-h1 {
     margin-top: 5px;
     text-align: center;
 }
-
 
 #fifth-container {
     font-size: 17px;
@@ -236,7 +242,19 @@ img.fourth {
     float: left;
     padding: 10px;
     height: auto;
+}
+
+#footer {
     
+    border-top: 4px solid #81B9C3;
+    text-align: center;
+    max-width: 670px;
+    background-color: rgb(212, 218, 224);
+    margin-top: 20px;
+    padding-top: 20px;
+    font-size: 18px;
+    padding-bottom: 30px;
+    line-height: 18px;
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -265,7 +283,19 @@ img.fourth {
     }
 
     img.third {
-        max-width: 70%;
+        max-width: 50%;
+    }
+
+    #fourth-container-content {
+        max-width: 90%;
+    }
+
+    img.fourth {
+        max-width: 100% !important;
+    }
+
+    #footer {
+
     }
 }
 @media screen and (min-width: 401px) and (max-width: 400px) {
